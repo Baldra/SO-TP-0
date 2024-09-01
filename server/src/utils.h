@@ -29,4 +29,7 @@ t_list* recibir_paquete(int);
 void recibir_mensaje(int);
 int recibir_operacion(int);
 
+void handle_error(const char* message, struct addrinfo* servinfo, int socket_fd);
+
+
 #endif /* UTILS_H_ */
